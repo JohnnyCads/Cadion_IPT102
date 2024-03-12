@@ -1,0 +1,321 @@
+﻿@page "/"
+@using CadionClassLib.Service;
+@using CadionClassLib.DataBaseContext;
+@using CadionClassLib.Classes;
+@using Microsoft.AspNetCore.Mvc.RazorPages;
+@inject IProfileDB profileDb
+@inject Microsoft.AspNetCore.Components.NavigationManager NavigationManager
+@inject IProfileStateService profileStateService
+
+
+@if (isEdettingProfile)
+{
+    @if (profileDisplay != null)
+    {
+        #region -- UpdateProfile-Html --
+        <form @onsubmit="UpdateProfile">
+            <div class="container rounded bg-Black mt-4 mb-4">
+                <div class="row">
+                    <div class="form-group">
+                        <InputFile id="Photo" accept="image/*" OnChange="HandleFileSelectedForUpdatePhoto" />
+                        <img src="@($"data:image/png;base64,{profileDisplay.PhotoBase64}")" alt="Preview" class="Photo-Insert" />
+                    </div>
+                    <div class="col-md-4 border-right">
+                        <div class="p-3 py-5">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="text-right">Profile Settings</h4>
+                            </div>
+                            <div class="row mt-3">
+                                <input class="form-control" type="hidden" @bind="profileDisplay.Id" />
+                                <div class="col-md-5"><label class="labels">FirstName</label><input class="form-control" @bind="profileDisplay.FirstName" /></div>
+                                <div class="col-md-5"><label class="labels">SureName</label><input class="form-control" @bind="profileDisplay.SureName" /></div>
+                                <div class="col-md-5"><label class="labels">MiddleInitial</label><input class="form-control" @bind="profileDisplay.MiddleInitial" /></div>
+                                <div class="col-md-5"><label class="labels">PhoneNumber</label><input class="form-control" @bind="profileDisplay.PhoneNumber" /></div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-12"><label class="labels">Address</label><input class="form-control" @bind="profileDisplay.Address" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3 py-5">
+                            <div class="col-md-12"><label class="labels">Male</label><input class="form-control" @bind="profileDisplay.Hobbies" /></div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update</button>
+                    <button type="button" class="btn btn-secondary" @onclick="CancelEditProfile">Back</button>
+                </div>
+            </div>
+        </form>
+        #endregion
+    }
+}
+else
+{
+    @if (isAddingProfile)
+    {
+        #region -- AddNewProfile-Html --
+        <div class="container rounded bg-white mt-5 mb-5">
+            <div class="row">
+                <form @onsubmit="SubmitNewProfile">
+                    <div class="form-group">
+                        <label for="FirstName">FirstName</label>
+                        <input type="text" class="form-control" id="FirstName" @bind="newProfile.FirstName" />
+                    </div>
+                    <div class="form-group">
+                        <label for="SurName">SurName</label>
+                        <input type="text" class="form-control" id="SurName" @bind="newProfile.SureName" />
+                    </div>
+                    <div class="form-group">
+                        <label for="MiddleName">MiddleInitial</label>
+                        <input type="text" class="form-control" id="MiddleName" @bind="newProfile.MiddleInitial" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="text" class="form-control" id="Email" @bind="newProfile.Email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="MobileNumber">Mobile Number</label>
+                        <input type="text" class="form-control" id="MobileNumber" @bind="newProfile.PhoneNumber" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Address">Address</label>
+                        <input type="text" class="form-control" id="Address" @bind="newProfile.Address" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Hobby">Moto In Life</label>
+                        <input type="text" class="form-control" id="Hobby" @bind="newProfile.Hobbies" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Photo">Add Photo</label>
+                        <InputFile id="Photo" accept="image/*" OnChange="HandleFileSelectedForNewPhoto" />
+                        <img src="@($"data:image/png;base64,{newProfile.PhotoBase64}")" alt="Preview" class="Photo-Insert" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-secondary" @onclick="CancelAddProfile">Back</button>
+                </form>
+            </div>
+        </div>
+        #endregion
+    }
+    else
+    {
+
+        #region -- SelectOptions-Html --
+        <button class="add-profile-button" @onclick="AddNewProfile">Add Profile</button>
+        <div class="animated-select">
+            @if (options != null)
+            {
+                <select class="select-option" @bind="selectedProfileId">
+                    @foreach (var option in options)
+                    {
+                        <option value="@option?.Id">@option?.FirstName</option>
+                    }
+                </select>
+                <button @onclick="ProfileDisplay" class="btn btn-primary">Check</button>
+            }
+            else
+            {
+                <p>No options available</p>
+            }
+            <div class="select-arrow"></div>
+        </div>
+        #endregion
+
+        #region -- Display-Html --
+        <div class="container rounded bg-white mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-3 border-right">
+                    <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                        @if (profileDisplay != null)
+                        {
+                            <img src='@($"data:image/png;base64,{profileDisplay.PhotoBase64}")' alt="Person Photo" class="Photo-Display" />
+                        }
+                        else
+                        {
+                            <p>No profile selected</p>
+                        }
+                    </div>
+                </div>
+                <div class="col-md-5 border-right">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h4 class="text-right">Profile Settings</h4>
+                        </div>
+
+                        <div class="row mt-2">
+                            <div class="col-md-6">
+                                <label class="labels">FirstName</label>
+                                <span class="form-control">@profileDisplay?.FirstName</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="labels">SurName</label>
+                                <span class="form-control">@profileDisplay?.SureName</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="labels">MiddleName</label>
+                                <span class="form-control">@profileDisplay?.MiddleInitial</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="labels">Mobile Number</label>
+                                <span class="form-control">@profileDisplay?.PhoneNumber</span>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label class="labels">Address</label>
+                                <span class="form-control">@profileDisplay?.Address</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 py-5">
+                        <div class="col-md-12">
+                            <label class="labels">Motto In Life</label>
+                            <span class="form-control">@profileDisplay?.Hobbies</span>
+                        </div>
+                    </div>
+                </div>
+                <button @onclick="EditProfile" class="btn btn-primary">Edit</button>
+                <button type="button" class="btn btn-secondary" @onclick="DeleteProfile">Delete</button>
+            </div>
+        </div>
+        #endregion
+
+    }
+}
+
+
+
+@code {
+#nullable disable
+
+    #region -- Fields --
+    public IEnumerable<IProfile> options;
+    public Profile profileDisplay;
+    public Profile newProfile = new Profile();
+    private int selectedProfileId;
+    private int? selectedId;
+    private bool isAddingProfile = false;
+    private bool isEdettingProfile = false;
+    private IBrowserFile photoFile;
+    #endregion
+
+    #region -- OnInitialized --
+    protected override void OnInitialized()
+    {
+        options = profileDb.profileOptions();
+        selectedId = profileStateService.SelectedId;
+        profileDisplay = profileDb.profileSelect(selectedId)?.FirstOrDefault() as Profile;
+    }
+    #endregion
+
+    #region -- ProfileDisplay-Cs --
+    private void ProfileDisplay()
+    {
+        var selectedProfile = profileDb.profileSelect(selectedProfileId)?.FirstOrDefault() as Profile;
+        profileDisplay = selectedProfile;
+
+        if (profileDisplay != null)
+        {
+            profileStateService.SelectedId = profileDisplay.Id;
+            profileStateService.NotifyStateChanged();
+        }
+    }
+    #endregion
+
+    #region -- NewProfile-Cs --
+    private void AddNewProfile()
+    {
+        isAddingProfile = true;
+        newProfile = new Profile();
+    }
+
+    private void CancelAddProfile()
+    {
+        isAddingProfile = false;
+    }
+    private async Task HandleFileSelectedForNewPhoto(InputFileChangeEventArgs e)
+    {
+        photoFile = e.File;
+        if (photoFile != null)
+        {
+            var stream = photoFile.OpenReadStream();
+            using (var memoryStream = new MemoryStream())
+            {
+                await stream.CopyToAsync(memoryStream);
+                newProfile.PhotoBase64 = Convert.ToBase64String(memoryStream.ToArray());
+            }
+        }
+    }
+    private async Task SubmitNewProfile()
+    {
+        if (photoFile != null)
+        {
+            using (var memoryStream = new MemoryStream())
+            {
+                await photoFile.OpenReadStream().CopyToAsync(memoryStream);
+                newProfile.PhotoBase64 = Convert.ToBase64String(memoryStream.ToArray());
+            }
+        }
+
+        profileDb.NewProfile(newProfile);
+
+        newProfile = new Profile();
+        isAddingProfile = false;
+        options = profileDb.profileOptions();
+    }
+    #endregion
+
+    #region -- Update Profile-Cs --
+    private void EditProfile()
+    {
+        isEdettingProfile = true;
+    }
+    private void CancelEditProfile()
+    {
+        isEdettingProfile = false;
+    }
+    private async Task HandleFileSelectedForUpdatePhoto(InputFileChangeEventArgs e)
+    {
+        photoFile = e.File;
+        if (photoFile != null)
+        {
+            var stream = photoFile.OpenReadStream();
+            using (var memoryStream = new MemoryStream())
+            {
+                await stream.CopyToAsync(memoryStream);
+                profileDisplay.PhotoBase64 = Convert.ToBase64String(memoryStream.ToArray());
+            }
+        }
+    }
+    private async Task UpdateProfile()
+    {
+        if (photoFile != null)
+        {
+            using (var memoryStream = new MemoryStream())
+            {
+                await photoFile.OpenReadStream().CopyToAsync(memoryStream);
+                profileDisplay.PhotoBase64 = Convert.ToBase64String(memoryStream.ToArray());
+            }
+        }
+        profileDb.UpdateProfile(profileDisplay);
+        isEdettingProfile = false;
+        options = profileDb.profileOptions();
+    }
+    #endregion
+
+    #region -- DeleteProfile-Cs --
+    private void DeleteProfile()
+    {
+        profileDb.DeleteProfile(selectedProfileId);
+        profileStateService.SelectedId = 0;
+        profileStateService.NotifyStateChanged();
+        profileDisplay = new Profile();
+        options = profileDb.profileOptions();
+    }
+    #endregion
+
+}

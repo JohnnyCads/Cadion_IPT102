@@ -1,0 +1,11 @@
+C:\CadionCRUDProfile\CadionCRUDProfile\CadionClassLib\bin\Debug\net6.0\CadionClassLib.deps.json
+C:\CadionCRUDProfile\CadionCRUDProfile\CadionClassLib\bin\Debug\net6.0\CadionClassLib.dll
+C:\CadionCRUDProfile\CadionCRUDProfile\CadionClassLib\bin\Debug\net6.0\CadionClassLib.pdb
+C:\CadionCRUDProfile\CadionCRUDProfile\CadionClassLib\obj\Debug\net6.0\CadionClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\CadionCRUDProfile\CadionCRUDProfile\CadionClassLib\obj\Debug\net6.0\CadionClassLib.AssemblyInfoInputs.cache
+C:\CadionCRUDProfile\CadionCRUDProfile\CadionClassLib\obj\Debug\net6.0\CadionClassLib.AssemblyInfo.cs
+C:\CadionCRUDProfile\CadionCRUDProfile\CadionClassLib\obj\Debug\net6.0\CadionClassLib.csproj.CoreCompileInputs.cache
+C:\CadionCRUDProfile\CadionCRUDProfile\CadionClassLib\obj\Debug\net6.0\CadionClassLib.dll
+C:\CadionCRUDProfile\CadionCRUDProfile\CadionClassLib\obj\Debug\net6.0\refint\CadionClassLib.dll
+C:\CadionCRUDProfile\CadionCRUDProfile\CadionClassLib\obj\Debug\net6.0\CadionClassLib.pdb
+C:\CadionCRUDProfile\CadionCRUDProfile\CadionClassLib\obj\Debug\net6.0\ref\CadionClassLib.dll
