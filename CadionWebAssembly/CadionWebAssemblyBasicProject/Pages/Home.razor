@@ -1,0 +1,63 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h3>Personal Information:</h3>
+
+<div class="container profile-container">
+    <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+        <img class="rounded-rectangle profile-picture" src="/css/cad.jpg" alt="Profile Picture">
+    </div>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <td><strong>Name:</strong></td>
+                <td>@Name</td>
+            </tr>
+            <tr>
+                <td><strong>Birthday:</strong></td>
+                <td>@Birthday.ToShortDateString()</td>
+            </tr>
+            <tr>
+                <td><strong>Email:</strong></td>
+                <td>@Email</td>
+            </tr>
+            <tr>
+                <td><strong>Mobile Number:</strong></td>
+                <td>@MobileNumber</td>
+            </tr>
+            <tr>
+                <td><strong>Birth Place:</strong></td>
+                <td>@BirthPlace</td>
+            </tr>
+            <tr>
+                <td><strong>Nickname:</strong></td>
+                <td>@Nickname</td>
+            </tr>
+            <tr>
+                <td><strong>Hobbies:</strong></td>
+                <td>@Hobbies</td>
+            </tr>
+            <tr>
+                <td><strong>Work Experience:</strong></td>
+                <td>@WorkExperience</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+@code {
+    // Sample personal information data
+    string Name { get; set; } = "John Cadion";
+    DateTime Birthday { get; set; } = new DateTime(2002, 10, 16);
+    string Email { get; set; } = "Cadion22@gmail.com";
+    string MobileNumber { get; set; } = "0912345678";
+    string BirthPlace { get; set; } = "Aleosan City";
+    string Nickname { get; set; } = "Cads";
+    string Hobbies { get; set; } = "Basketball";
+    string WorkExperience { get; set; } = "5 years in JNT driver";
+}
