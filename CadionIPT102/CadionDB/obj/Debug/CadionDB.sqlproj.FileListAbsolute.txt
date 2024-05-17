@@ -1,0 +1,10 @@
+C:\CadionIPT102\CadionIPT102\CadionDB\bin\Debug\CadionDB.dacpac
+C:\CadionIPT102\CadionIPT102\CadionDB\bin\Debug\CadionDB.dll
+C:\CadionIPT102\CadionIPT102\CadionDB\bin\Debug\CadionDB.pdb
+C:\CadionIPT102\CadionIPT102\CadionDB\obj\Debug\CadionDB.sqlproj.AssemblyReference.cache
+C:\CadionIPT102\CadionIPT102\CadionDB\obj\Debug\CadionDB.dll
+C:\CadionIPT102\CadionIPT102\CadionDB\obj\Debug\CadionDB.pdb
+C:\CadionIPT102\CadionIPT102\CadionDB\obj\Debug\Model.xml
+C:\CadionIPT102\CadionIPT102\CadionDB\obj\Debug\refactor.xml
+C:\CadionIPT102\CadionIPT102\CadionDB\obj\Debug\postdeploy.sql
+C:\CadionIPT102\CadionIPT102\CadionDB\obj\Debug\predeploy.sql

@@ -1,0 +1,96 @@
+﻿@page
+@model CadionWebApp.Pages.VapeModel
+@{
+}
+
+<center>
+    <h1>
+        Vape
+    </h1>
+</center>
+
+<a class="btn btn-black" asp-page="/Index">LOGUOUT</a>
+<ul class="nav bg-gradient">
+    <li class="nav-item">
+        <a class="nav-link  text-black-50" asp-page="/Admin">USERS</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-black-50" asp-page="/Vape">Flavor</a>
+    </li>
+   
+</ul>
+<form method="post" asp-page-handler="SEA">
+    <input name="Search" />
+    <button type="submit" class="btn btn-warning">Search</button>
+</form>
+<div style="max-height: 200px; overflow-y: auto;">
+    <table class="table bg-secondary text-">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Flavor</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <form method="post" asp-page-handler="Add">
+                    <input name="Id" hidden value="@Model.Id" />
+
+                <td><input value="@Model.Name" name="Name" required placeholder="Name" /></td>
+                <td><input value="@Model.CourseYear" name="CourseYear" required placeholder="CourseYear" /></td>
+                <td>
+                    <input value="@Model.Title" name="Title" required placeholder="Title" /><button type="submit">ADD</button>
+                    <button class="btn btn-primary" method="post" asp-page-handler="Upd" type="submit">UPDATE</button>
+                </td>
+
+                </form>
+            </tr>
+            @foreach (var a in Model.list)
+            {
+                <tr>
+                    <td>@a.Name</td>
+                    <td>@a.CourseYear</td>
+                    <td>@a.Title</td>
+                    <td>
+
+                    <td>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updModal">
+                            UPDATE
+                        </button>
+                        <form method="post" asp-page-handler="Del">
+                            <input name="Id2" hidden value="@a.Id" />
+                            <input name="Name2" hidden value="@a.Name" />
+                            <input name="CourseYear2" hidden value="@a.CourseYear" />
+                            <input name="Title2" hidden value="@a.Title" />
+
+                            <div class="modal fade" id="updModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-dark">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">UPDATE</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-gradient">
+
+                                            <input name="Id" hidden value="@a.Id" />
+                                            <input value="@a.Name" name="Name" required placeholder="Name" />Name<br>
+                                            <input value="@a.CourseYear" name="CourseYear" required placeholder="CourseYear" />CourseYear<br>
+                                            <input value="@a.Title" name="Title" required placeholder="Title" />Title<br>
+                                            <button class="btn btn-danger" method="post" asp-page-handler="Upd" type="submit">UPDATE</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-danger" method="post" asp-page-handler="Edi" type="submit">EDIT</button>
+                            <button class="btn btn-danger" type="submit">DELETE</button>
+                        </form>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

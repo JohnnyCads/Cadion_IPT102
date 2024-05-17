@@ -1,0 +1,8 @@
+﻿CREATE PROCEDURE [dbo].[Vape_DEL]
+	 @Id INT
+AS
+BEGIN
+DELETE FROM [dbo].[Vape]
+WHERE [Id]=@Id
+
+END

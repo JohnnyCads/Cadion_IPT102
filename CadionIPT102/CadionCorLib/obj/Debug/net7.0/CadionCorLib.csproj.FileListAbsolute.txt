@@ -1,0 +1,12 @@
+C:\CadionIPT102\CadionIPT102\CadionCorLib\bin\Debug\net7.0\CadionCorLib.deps.json
+C:\CadionIPT102\CadionIPT102\CadionCorLib\bin\Debug\net7.0\CadionCorLib.dll
+C:\CadionIPT102\CadionIPT102\CadionCorLib\bin\Debug\net7.0\CadionCorLib.pdb
+C:\CadionIPT102\CadionIPT102\CadionCorLib\obj\Debug\net7.0\CadionCorLib.csproj.AssemblyReference.cache
+C:\CadionIPT102\CadionIPT102\CadionCorLib\obj\Debug\net7.0\CadionCorLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\CadionIPT102\CadionIPT102\CadionCorLib\obj\Debug\net7.0\CadionCorLib.AssemblyInfoInputs.cache
+C:\CadionIPT102\CadionIPT102\CadionCorLib\obj\Debug\net7.0\CadionCorLib.AssemblyInfo.cs
+C:\CadionIPT102\CadionIPT102\CadionCorLib\obj\Debug\net7.0\CadionCorLib.csproj.CoreCompileInputs.cache
+C:\CadionIPT102\CadionIPT102\CadionCorLib\obj\Debug\net7.0\CadionCorLib.dll
+C:\CadionIPT102\CadionIPT102\CadionCorLib\obj\Debug\net7.0\refint\CadionCorLib.dll
+C:\CadionIPT102\CadionIPT102\CadionCorLib\obj\Debug\net7.0\CadionCorLib.pdb
+C:\CadionIPT102\CadionIPT102\CadionCorLib\obj\Debug\net7.0\ref\CadionCorLib.dll

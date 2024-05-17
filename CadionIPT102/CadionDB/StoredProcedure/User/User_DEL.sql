@@ -1,0 +1,8 @@
+﻿CREATE PROCEDURE [dbo].[User_DEL]
+	@Id INT
+AS
+BEGIN
+DELETE FROM [dbo].[User]
+WHERE
+[Id]=@Id
+END
