@@ -4,8 +4,8 @@ BEGIN
 SELECT
 [Id] as Id,
 [Name] as Name,
-[Course/Year] as CourseYear,
-[Title] as Title
+[Flavor] as Flavor,
+[Milligrams] as Milligrams
 
 FROM [dbo].[Vape]
 

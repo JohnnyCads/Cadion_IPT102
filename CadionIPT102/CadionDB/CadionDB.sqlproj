@@ -76,4 +76,7 @@
     <Build Include="StoredProcedure\User\User_UPD.sql" />
     <Build Include="Table\User.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="CadionDB.refactorlog" />
+  </ItemGroup>
 </Project>

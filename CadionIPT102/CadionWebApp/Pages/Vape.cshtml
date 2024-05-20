@@ -3,33 +3,27 @@
 @{
 }
 
-<center>
-    <h1>
-        Vape
-    </h1>
-</center>
-
-<a class="btn btn-black" asp-page="/Index">LOGUOUT</a>
+<a class="btn btn-outline-danger text-black" asp-page="/Index">LOGOUT</a>
 <ul class="nav bg-gradient">
     <li class="nav-item">
-        <a class="nav-link  text-black-50" asp-page="/Admin">USERS</a>
+        <a class="btn btn-outline-primary" asp-page="/Admin">USERS</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link text-black-50" asp-page="/Vape">Flavor</a>
+        <a class="btn btn-outline-primary" asp-page="/Vape">VAPE</a>
     </li>
    
 </ul>
 <form method="post" asp-page-handler="SEA">
     <input name="Search" />
-    <button type="submit" class="btn btn-warning">Search</button>
+    <button type="submit" class="btn btn-outline-primary">Search</button>
 </form>
-<div style="max-height: 200px; overflow-y: auto;">
-    <table class="table bg-secondary text-">
+<div style="max-height: 400px; overflow-y: auto;">
+    <table class="table bg-bg-primary text-white">
         <thead>
             <tr>
                 <th>Name</th>
                 <th>Flavor</th>
-                <th>Type</th>
+                <th>Milligrams</th>
             </tr>
         </thead>
         <tbody>
@@ -38,10 +32,10 @@
                     <input name="Id" hidden value="@Model.Id" />
 
                 <td><input value="@Model.Name" name="Name" required placeholder="Name" /></td>
-                <td><input value="@Model.CourseYear" name="CourseYear" required placeholder="CourseYear" /></td>
+                <td><input value="@Model.Flavor" name="Flavor" required placeholder="Flavor" /></td>
                 <td>
-                    <input value="@Model.Title" name="Title" required placeholder="Title" /><button type="submit">ADD</button>
-                    <button class="btn btn-primary" method="post" asp-page-handler="Upd" type="submit">UPDATE</button>
+                    <input value="@Model.Milligrams" name="Milligrams" required placeholder="Milligrams" /><button type="submit">ADD</button>
+                    <button class="btn btn-outline-primary" method="post" asp-page-handler="Upd" type="submit">UPDATE</button>
                 </td>
 
                 </form>
@@ -50,19 +44,19 @@
             {
                 <tr>
                     <td>@a.Name</td>
-                    <td>@a.CourseYear</td>
-                    <td>@a.Title</td>
+                    <td>@a.Flavor</td>
+                    <td>@a.Milligrams</td>
                     <td>
 
                     <td>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updModal">
+                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#updModal">
                             UPDATE
                         </button>
                         <form method="post" asp-page-handler="Del">
                             <input name="Id2" hidden value="@a.Id" />
                             <input name="Name2" hidden value="@a.Name" />
-                            <input name="CourseYear2" hidden value="@a.CourseYear" />
-                            <input name="Title2" hidden value="@a.Title" />
+                            <input name="Flavor2" hidden value="@a.Flavor" />
+                            <input name="Milligrams2" hidden value="@a.Milligrams" />
 
                             <div class="modal fade" id="updModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
@@ -75,17 +69,17 @@
 
                                             <input name="Id" hidden value="@a.Id" />
                                             <input value="@a.Name" name="Name" required placeholder="Name" />Name<br>
-                                            <input value="@a.CourseYear" name="CourseYear" required placeholder="CourseYear" />CourseYear<br>
-                                            <input value="@a.Title" name="Title" required placeholder="Title" />Title<br>
-                                            <button class="btn btn-danger" method="post" asp-page-handler="Upd" type="submit">UPDATE</button>
+                                            <input value="@a.Flavor" name="Flavor" required placeholder="Flavor" />Flavor<br>
+                                            <input value="@a.Milligrams" name="Milligrams" required placeholder="Milligrams" />Milligrams<br>
+                                            <button class="btn btn-outline-primary" method="post" asp-page-handler="Upd" type="submit">UPDATE</button>
 
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
-                            <button class="btn btn-danger" method="post" asp-page-handler="Edi" type="submit">EDIT</button>
-                            <button class="btn btn-danger" type="submit">DELETE</button>
+                            <button class="btn btn-outline-primary" method="post" asp-page-handler="Edi" type="submit">EDIT</button>
+                            <button class="btn btn-outline-primary" type="submit">DELETE</button>
                         </form>
 
                     </td>

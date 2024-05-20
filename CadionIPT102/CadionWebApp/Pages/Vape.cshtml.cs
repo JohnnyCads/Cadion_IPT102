@@ -14,12 +14,12 @@ namespace CadionWebApp.Pages
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string CourseYear { get; set; }
-        public string Title { get; set; }
+        public string Flavor { get; set; }
+        public string Milligrams { get; set; }
         public int Id2 { get; set; }
         public string Name2 { get; set; }
-        public string CourseYear2 { get; set; }
-        public string Title2 { get; set; }
+        public string Flavor2 { get; set; }
+        public string Milligrams2 { get; set; }
         public string Search { get; set; }
 
         private readonly ILogger<VapeModel> _logger;
@@ -39,8 +39,8 @@ namespace CadionWebApp.Pages
             con.Query("[dbo].[Vape_ADD]", new
             {
                 @Name = Name,
-                @CourseYear = CourseYear,
-                @Title = Title
+                @Flavor = Flavor,
+                @Milligrams = Milligrams
             }, commandType: CommandType.StoredProcedure);
             return RedirectToPage();
         }
@@ -51,8 +51,8 @@ namespace CadionWebApp.Pages
             {
                 @Id = Id,
                 @Name = Name,
-                @CourseYear = CourseYear,
-                @Title = Title
+                @Flavor = Flavor,
+                @Milligrams = Milligrams
             }, commandType: CommandType.StoredProcedure);
             return RedirectToPage();
         }
@@ -80,8 +80,8 @@ namespace CadionWebApp.Pages
         {
 
             Name = Name2;
-            CourseYear = CourseYear2;
-            Title = Title2;
+            Flavor = Flavor2;
+            Milligrams = Milligrams2;
             Id = Id2;
             var con = new SqlConnection(_config.GetConnectionString("CadionDB"));
             list = con.Query<Users.VapeModel>("[dbo].[Vape_DIS]", commandType: CommandType.StoredProcedure);

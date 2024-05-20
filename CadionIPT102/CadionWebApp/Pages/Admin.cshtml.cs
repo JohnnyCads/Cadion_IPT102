@@ -36,7 +36,7 @@ namespace CadionWebApp.Pages
 
         public IActionResult OnPostAdd()
         {
-            var con = new SqlConnection(_config.GetConnectionString("CadionB"));
+            var con = new SqlConnection(_config.GetConnectionString("CadionDB"));
             con.Query("[dbo].[User_ADD]", new
             {
                 @Password = Password,
@@ -80,7 +80,7 @@ namespace CadionWebApp.Pages
         }
         public IActionResult OnPostSea()
         {
-            var con = new SqlConnection(_config.GetConnectionString("CalambroDB"));
+            var con = new SqlConnection(_config.GetConnectionString("CadionDB"));
             list = con.Query<Users.UserModel>("[dbo].[User_SEA]", new
             {
                 @Key = $"%{Search}%"

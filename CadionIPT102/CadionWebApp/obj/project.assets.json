@@ -2064,23 +2064,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\JERICHO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CadionIPT102\\CadionIPT102\\CadionWebApp\\CadionWebApp.csproj",
+      "projectUniqueName": "C:\\CADION_IPT102_FINAL\\CadionIPT102\\CadionWebApp\\CadionWebApp.csproj",
       "projectName": "CadionWebApp",
-      "projectPath": "C:\\CadionIPT102\\CadionIPT102\\CadionWebApp\\CadionWebApp.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\CadionIPT102\\CadionIPT102\\CadionWebApp\\obj\\",
+      "projectPath": "C:\\CADION_IPT102_FINAL\\CadionIPT102\\CadionWebApp\\CadionWebApp.csproj",
+      "packagesPath": "C:\\Users\\JERICHO\\.nuget\\packages\\",
+      "outputPath": "C:\\CADION_IPT102_FINAL\\CadionIPT102\\CadionWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JERICHO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2095,8 +2095,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\CadionIPT102\\CadionIPT102\\CadionCorLib\\CadionCorLib.csproj": {
-              "projectPath": "C:\\CadionIPT102\\CadionIPT102\\CadionCorLib\\CadionCorLib.csproj"
+            "C:\\CADION_IPT102_FINAL\\CadionIPT102\\CadionCorLib\\CadionCorLib.csproj": {
+              "projectPath": "C:\\CADION_IPT102_FINAL\\CadionIPT102\\CadionCorLib\\CadionCorLib.csproj"
             }
           }
         }

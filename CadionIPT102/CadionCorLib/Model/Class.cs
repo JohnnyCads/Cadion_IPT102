@@ -16,8 +16,8 @@ namespace CadionCorLib.Model
         {
             public int Id { get; set; }
             public string Name { get; set; }
-            public string CourseYear { get; set; }
-            public string Title { get; set; }
+            public string Flavor { get; set; }
+            public string Milligrams { get; set; }
 
         }
     }

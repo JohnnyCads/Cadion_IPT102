@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Vape].[Type] is being dropped, data loss could occur.
+
+** User actions
+     Rename
+       [dbo].[Vape].[Flavor] (Column)
+       [dbo].[Vape].[Type] (Column)
+     Alter
+       [dbo].[Vape] (Table)
+       [dbo].[User_DIS] (Procedure)
+       [dbo].[Vape_ADD] (Procedure)
+       [dbo].[Vape_DIS] (Procedure)
+       [dbo].[Vape_Sea] (Procedure)
+       [dbo].[Vape_UPD] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[Vape_DEL] (Procedure)
+
+The column [dbo].[Vape].[Type] is being dropped, data loss could occur.
+

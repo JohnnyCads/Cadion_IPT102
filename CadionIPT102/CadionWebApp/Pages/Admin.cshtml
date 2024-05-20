@@ -2,28 +2,22 @@
 @model CadionWebApp.Pages.AdminModel
 @{
 }
-<center>
-    <h1>
-        USERS
-    </h1>
-</center>
-
-<a class="btn btn-dark" asp-page="/Index">LOGOUT</a>
-<ul class="nav bg-secondary">
+<a class="btn btn-outline-danger text-black" asp-page="/Index">LOGOUT</a>
+<ul class="nav bg-gradient">
     <li class="nav-item">
-        <a class="nav-link  text-white" asp-page="/Admin">USERS</a>
+        <a class="btn btn-outline-primary" asp-page="/Admin">USERS</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link text-white" asp-page="/Vape">Flavor</a>
+        <a class="btn btn-outline-primary" asp-page="/Vape">VAPE</a>
     </li>
 
 </ul>
-<form method="post" asp-page-handler="Sea">
+<form method="post" asp-page-handler="SEA">
     <input name="Search" />
-    <button type="submit" class="btn btn-primary">Search</button>
+    <button type="submit" class="btn btn-outline-primary">Search</button>
 </form>
 <div style="max-height: 400px; overflow-y: auto;">
-    <table class="table bg-secondary text-white">
+    <table class="table bg-bg-secondary text-white">
         <thead>
             <tr>
                 <th>Username</th>
@@ -33,7 +27,7 @@
             </tr>
         </thead>
         <tbody>
-            <form method="post" asp-page-handler="Add">
+            <form method="post" asp-page-handler="ADD">
             <tr>
                 <td><input required name="Username" placeholder="USERNAME" value="@Model.Username" /></td>
                 <td><input required name="Password" placeholder="PASSWORD" value="@Model.Password" /></td>
@@ -46,7 +40,7 @@
                         </label>
                     </div>
 
-                    <input name="CCId" hidden value="@Model.Id" />
+                    <input name="Id" hidden value="@Model.Id" />
                     <button type="submit">Add</button>
                     <button type="submit" formmethod="post" asp-page-handler="Upd">UPDATE</button>
                 </td>
@@ -63,7 +57,7 @@
                     <td>@a.Class</td>
                     <td>
                         <form method="post" asp-page-handler="Edi">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updModal_@a.Username@a.Password@a.Id">
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#updModal_@a.Username@a.Password@a.Id">
                                 UPDATE
                             </button>
 
@@ -71,8 +65,8 @@
                             <input name="Username2" hidden value="@a.Username" />
                             <input name="Password2" hidden value="@a.Password" />
                             <input name="Class2" hidden value="@a.Class" />
-                            <button class="btn btn-danger" type="submit">EDIT</button>
-                            <button class="btn btn-danger" formmethod="post" asp-page-handler="Del">DELETE</button>
+                            <button class="btn btn-outline-primary" type="submit">EDIT</button>
+                            <button class="btn btn-outline-primary" formmethod="post" asp-page-handler="Del">DELETE</button>
                         </form>
 
                         <div class="modal fade" id="updModal_@a.Username@a.Password@a.Id" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

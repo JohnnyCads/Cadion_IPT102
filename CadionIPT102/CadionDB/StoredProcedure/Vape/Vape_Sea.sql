@@ -6,16 +6,16 @@ BEGIN
 SELECT
 [Id] as Id,
 [Name] as Name,
-[Course/Year] as CourseYear,
-[Title] as Title
+[Flavor] as Flavor,
+[Milligrams] as Type
 
 FROM [dbo].[Vape]
 
 WHERE 
 [Id] like @key or
 [Name] like @key or
-[Course/Year] like @key or
-[Title] like @key 
+[Flavor] like @key or
+[Milligrams] like @key 
 
 ORDER BY [Name]
 END

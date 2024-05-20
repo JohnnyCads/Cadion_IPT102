@@ -22,8 +22,8 @@ begin
 INSERT INTO [dbo].[Vape]
 (
 [Name],
-[Course/Year],
-[Title]
+[Flavor],
+[Milligrams]
 )
 VALUES
 (

@@ -2,7 +2,7 @@
 (
 [Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [Name] NVARCHAR(50) NULL, 
-    [Course/Year] NVARCHAR(50) NULL, 
-    [Title] NVARCHAR(50) NULL
+    [Flavor] NVARCHAR(50) NULL, 
+    [Milligrams] NVARCHAR(50) NULL
 )
 

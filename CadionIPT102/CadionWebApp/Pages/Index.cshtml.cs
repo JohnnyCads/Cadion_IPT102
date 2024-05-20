@@ -26,7 +26,7 @@ namespace CadionWebApp.Pages
         {
             _logger = logger;
             _config = config;
-            var con = new SqlConnection(_config.GetConnectionString("CadionDb"));
+            var con = new SqlConnection(_config.GetConnectionString("CadionDB"));
             list = con.Query<Users.UserModel>("[dbo].[User_DIS]", commandType: CommandType.StoredProcedure);
             list = con.Query<Users.UserModel>("[dbo].[User_SEA]", new
             {
