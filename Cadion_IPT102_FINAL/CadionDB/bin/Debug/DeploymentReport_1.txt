@@ -1,0 +1,27 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[User] (Table)
+       [dbo].[Vape] (Table)
+       [dbo].[User_ADD] (Procedure)
+       [dbo].[User_DEL] (Procedure)
+       [dbo].[User_DIS] (Procedure)
+       [dbo].[User_LOG] (Procedure)
+       [dbo].[User_SEA] (Procedure)
+       [dbo].[User_UPD] (Procedure)
+       [dbo].[Vape_ADD] (Procedure)
+       [dbo].[Vape_DEL] (Procedure)
+       [dbo].[Vape_DIS] (Procedure)
+       [dbo].[Vape_Sea] (Procedure)
+       [dbo].[Vape_UPD] (Procedure)
+
+** Supporting actions

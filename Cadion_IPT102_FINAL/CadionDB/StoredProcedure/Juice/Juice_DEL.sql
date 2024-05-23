@@ -1,0 +1,8 @@
+﻿CREATE PROCEDURE [dbo].[Juice_DEL]
+	 @Id INT
+AS
+BEGIN
+DELETE FROM [dbo].[Juice]
+WHERE [Id]=@Id
+
+END

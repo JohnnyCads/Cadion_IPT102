@@ -1,0 +1,92 @@
+﻿@page
+@model CadionWebApp.Pages.JuiceModel
+@{
+}
+<a class="btn btn-outline-danger text-black" asp-page="/Index">LOGOUT</a>
+<ul class="nav bg-gradient">
+    <li class="nav-item">
+        <a class="btn btn-outline-primary" asp-page="/Admin">USERS</a>
+    </li>
+    <li class="nav-item">
+        <a class="btn btn-outline-primary" asp-page="/Vape">VAPE</a>
+    </li>
+    <li class="nav-item">
+        <a class="btn btn-outline-primary" asp-page="/Juice">JUICE</a>
+        </li>
+
+</ul>
+<form method="post" asp-page-handler="SEA">
+    <input name="Search" />
+    <button type="submit" class="btn btn-outline-primary">Search</button>
+</form>
+<div style="max-height: 400px; overflow-y: auto;">
+    <table class="table bg-bg-primary text-white">
+        <thead>
+            <tr>
+                <th>BrandName</th>
+                <th>Flavor</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <form method="post" asp-page-handler="Add">
+                    <input name="Id" hidden value="@Model.Id" />
+
+                <td><input value="@Model.BrandName" name="Name" required placeholder="BrandName" /></td>
+                <td><input value="@Model.Flavor" name="VapeType" required placeholder="Flavor" /></td>
+                <td>
+                    <input value="@Model.Price" name="Price" required placeholder="Price" /><button type="submit">ADD</button>
+                    <button class="btn btn-outline-primary" method="post" asp-page-handler="Upd" type="submit">UPDATE</button>
+                </td>
+
+                </form>
+            </tr>
+            @foreach (var a in Model.list)
+            {
+                <tr>
+                    <td>@a.BrandName</td>
+                    <td>@a.Flavor</td>
+                    <td>@a.Price</td>
+                    <td>
+
+                    <td>
+                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#updModal">
+                            UPDATE
+                        </button>
+                        <form method="post" asp-page-handler="Del">
+                            <input name="Id2" hidden value="@a.Id" />
+                            <input name="BrandName2" hidden value="@a.BrandName" />
+                            <input name="Flavor2" hidden value="@a.Flavor" />
+                            <input name="Price2" hidden value="@a.Price" />
+
+                            <div class="modal fade" id="updModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-dark">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">UPDATE</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-gradient">
+
+                                            <input name="Id" hidden value="@a.Id" />
+                                            <input value="@a.BrandName" name="Name" required placeholder="BrandName" />BrandName<br>
+                                            <input value="@a.Flavor" name="VapeType" required placeholder="Flavor" />Flavor<br>
+                                            <input value="@a.Price" name="Price" required placeholder="Price" />Price<br>
+                                            <button class="btn btn-outline-primary" method="post" asp-page-handler="Upd" type="submit">UPDATE</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-primary" method="post" asp-page-handler="Edi" type="submit">EDIT</button><br />
+                            <button class="btn btn-outline-primary" type="submit">DELETE</button><br />
+                        </form>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

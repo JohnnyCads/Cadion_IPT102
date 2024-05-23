@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Juice]
+(
+[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [BrandName] NVARCHAR(50) NULL, 
+    [Flavor] NVARCHAR(50) NULL, 
+    [Price] NVARCHAR(50) NULL
+)
+

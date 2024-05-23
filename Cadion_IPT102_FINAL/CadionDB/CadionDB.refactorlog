@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6e5adc21-c6e8-4937-ae96-a5b448b42b37" ChangeDateTime="05/20/2024 14:00:20">
+    <Property Name="ElementName" Value="[dbo].[Vape].[Course/Year]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Vape]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Flavor" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9726c4c2-5c52-45ba-883e-36d47133ab26" ChangeDateTime="05/20/2024 14:00:27">
+    <Property Name="ElementName" Value="[dbo].[Vape].[Title]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Vape]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Type" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="eefb8008-752a-4be9-a2d5-e668a9152478" ChangeDateTime="05/23/2024 14:18:48">
+    <Property Name="ElementName" Value="[dbo].[Vape].[Flavor]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Vape]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Type" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="11dea68c-4a0a-4e3f-aeea-acf49626c401" ChangeDateTime="05/23/2024 14:18:57">
+    <Property Name="ElementName" Value="[dbo].[Vape].[Milligrams]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Vape]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Price" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="59539c95-8a53-4a7c-a988-56e72cc0f5cb" ChangeDateTime="05/23/2024 14:23:21">
+    <Property Name="ElementName" Value="[dbo].[Vape].[Type]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Vape]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Vape Type" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fb65001d-aa91-455a-ae16-f84dab80304e" ChangeDateTime="05/23/2024 14:23:54">
+    <Property Name="ElementName" Value="[dbo].[Vape].[Vape Type]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Vape]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VapeType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fd643b01-3fca-45f4-a5f5-f689deb4abb8" ChangeDateTime="05/23/2024 23:10:09">
+    <Property Name="ElementName" Value="[dbo].[Juice].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Juice]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BrandName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f687d6b6-ce00-4202-911c-eb17bde6444f" ChangeDateTime="05/23/2024 23:10:16">
+    <Property Name="ElementName" Value="[dbo].[Juice].[VapeType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Juice]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Flavor" />
+  </Operation>
+</Operations>

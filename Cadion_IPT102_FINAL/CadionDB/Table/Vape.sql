@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Vape]
+(
+[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(50) NULL, 
+    [VapeType] NVARCHAR(50) NULL, 
+    [Price] NVARCHAR(50) NULL
+)
+

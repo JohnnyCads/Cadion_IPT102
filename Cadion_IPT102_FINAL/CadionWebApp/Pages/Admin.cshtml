@@ -1,0 +1,104 @@
+﻿@page
+@model CadionWebApp.Pages.AdminModel
+@{
+}
+<a class="btn btn-outline-danger text-black" asp-page="/Index">LOGOUT</a>
+<ul class="nav bg-gradient">
+    <li class="nav-item">
+        <a class="btn btn-outline-primary" asp-page="/Admin">USERS</a>
+    </li>
+    <li class="nav-item">
+        <a class="btn btn-outline-primary" asp-page="/Vape">VAPE</a>
+    </li>
+    <li class="nav-item">
+        <a class="btn btn-outline-primary" asp-page="/Juice">JUICE</a>
+    </li>
+</ul>
+<form method="post" asp-page-handler="SEA">
+    <input name="Search" />
+    <button type="submit" class="btn btn-outline-primary">Search</button>
+</form>
+<div style="max-height: 400px; overflow-y: auto;">
+    <table class="table bg-bg-secondary text-white">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Class</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <form method="post" asp-page-handler="ADD">
+            <tr>
+                <td><input required name="Username" placeholder="USERNAME" value="@Model.Username" /></td>
+                <td><input required name="Password" placeholder="PASSWORD" value="@Model.Password" /></td>
+
+                <td>
+                    <div class="form-check">
+                        <input name="Class" value="Admin" class="form-check-input" type="radio" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Admin
+                        </label>
+                    </div>
+
+                    <input name="Id" hidden value="@Model.Id" />
+                    <button type="submit">Add</button>
+                    <button type="submit" formmethod="post" asp-page-handler="Upd">UPDATE</button>
+                </td>
+
+
+            </tr>
+            </form>
+
+            @foreach (var a in Model.list)
+            {
+                <tr>
+                    <td>@a.Username</td>
+                    <td>@a.Password</td>
+                    <td>@a.Class</td>
+                    <td>
+                        <form method="post" asp-page-handler="Edi">
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#updModal_@a.Username@a.Password@a.Id">
+                                UPDATE
+                            </button><br />
+
+                            <input name="Id2" hidden value="@a.Id" />
+                            <input name="Username2" hidden value="@a.Username" />
+                            <input name="Password2" hidden value="@a.Password" />
+                            <input name="Class2" hidden value="@a.Class" />
+                            <button class="btn btn-outline-primary" type="submit">EDIT</button><br />
+                            <button class="btn btn-outline-primary" formmethod="post" asp-page-handler="Del">DELETE</button><br />
+                        </form>
+
+                        <div class="modal fade" id="updModal_@a.Username@a.Password@a.Id" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-dark">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">UPDATE</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body-bg-white">
+                                        <form method="post" asp-page-handler="Upd">
+                                            <input name="Id" hidden value="@a.Id" />
+                                            <input name="Username" placeholder="USERNAME" value="@a.Username" />USERNAME<br>
+                                            <input name="Password" placeholder="PASSWORD" value="@a.Password" />PASSWORD
+                                            <div class="form-check">
+                                                <input name="Class" value="Admin" class="form-check-input" type="radio" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Admin
+                                                </label>
+                                            </div>
+                                            <button type="submit">UPDATE</button><br />
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

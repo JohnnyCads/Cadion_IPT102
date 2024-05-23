@@ -1,0 +1,26 @@
+﻿@page
+@model CadionWebApp.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<center style="position:center; top:-45%; left:40%;">
+    <h1>Vape Store</h1>
+    <form method="post" asp-page-handler="Log">
+        <br /><input name="Username" placeholder="Username" />
+        <br /><input name="Password" placeholder="Password" />
+
+        <br /><button type="submit">LOGIN</button>
+    </form>
+    @foreach (var a in Model.list)
+    {
+
+
+        <form method="post" asp-page-handler="Ver">
+            <input hidden name="Class" value="@a.Class" />
+            <h1>@a.Class ? </h1>
+            <button type="submit" class="btn btn-outline-primary">CONFIRM</button>
+          
+        </form>
+    }
+</center>
