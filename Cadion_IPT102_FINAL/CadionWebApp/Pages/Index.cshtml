@@ -4,17 +4,22 @@
     ViewData["Title"] = "Home page";
 }
 
-<center style="position:center; top:-45%; left:40%;">
+<center style="position:center; top:-45%; left:40%;  ">
     <h1>Vape Store</h1>
     <form method="post" asp-page-handler="Log">
-        <br /><input name="Username" placeholder="Username" />
-        <br /><input name="Password" placeholder="Password" />
-
-        <br /><button type="submit">LOGIN</button>
+        <input name="Username" placeholder="Username" />
+        <input name="Password" placeholder="Password" />
+        <button type="submit">LOGIN</button>
+        <div class="remember-forgot">
+            <label><input type="checkbox" >Remember Me</label>
+            <a href="#">Forgot Password</a>
+        </div>
+        <div class="register-link">
+            <p>Dont have an account? <a href="#">Register</a> </p>
+        </div>
     </form>
     @foreach (var a in Model.list)
     {
-
 
         <form method="post" asp-page-handler="Ver">
             <input hidden name="Class" value="@a.Class" />

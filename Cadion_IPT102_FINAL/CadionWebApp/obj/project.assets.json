@@ -2070,11 +2070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\CadionWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\CadionWebApp.csproj",
       "projectName": "CadionWebApp",
-      "projectPath": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\CadionWebApp.csproj",
+      "projectPath": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\CadionWebApp.csproj",
       "packagesPath": "C:\\Users\\JERICHO\\.nuget\\packages\\",
-      "outputPath": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\obj\\",
+      "outputPath": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2095,8 +2095,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\IPT102_FINAL\\CadionIPT102\\CadionCorLib\\CadionCorLib.csproj": {
-              "projectPath": "C:\\IPT102_FINAL\\CadionIPT102\\CadionCorLib\\CadionCorLib.csproj"
+            "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionCorLib\\CadionCorLib.csproj": {
+              "projectPath": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionCorLib\\CadionCorLib.csproj"
             }
           }
         }

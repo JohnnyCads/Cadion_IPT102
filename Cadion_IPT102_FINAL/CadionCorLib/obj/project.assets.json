@@ -2050,11 +2050,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IPT102_FINAL\\CadionIPT102\\CadionCorLib\\CadionCorLib.csproj",
+      "projectUniqueName": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionCorLib\\CadionCorLib.csproj",
       "projectName": "CadionCorLib",
-      "projectPath": "C:\\IPT102_FINAL\\CadionIPT102\\CadionCorLib\\CadionCorLib.csproj",
+      "projectPath": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionCorLib\\CadionCorLib.csproj",
       "packagesPath": "C:\\Users\\JERICHO\\.nuget\\packages\\",
-      "outputPath": "C:\\IPT102_FINAL\\CadionIPT102\\CadionCorLib\\obj\\",
+      "outputPath": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionCorLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

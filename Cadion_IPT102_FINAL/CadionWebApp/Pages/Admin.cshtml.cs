@@ -45,7 +45,7 @@ namespace CadionWebApp.Pages
             }, commandType: CommandType.StoredProcedure);
             return RedirectToPage();
         }
-        public IActionResult OnPostCCedi()
+        public IActionResult OnPostedi()
         {
 
             Password = Password2;

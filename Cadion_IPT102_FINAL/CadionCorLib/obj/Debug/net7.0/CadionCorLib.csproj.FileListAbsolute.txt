@@ -59,3 +59,16 @@ C:\IPT102_FINAL\CadionIPT102\CadionCorLib\obj\Debug\net7.0\CadionCorLib.dll
 C:\IPT102_FINAL\CadionIPT102\CadionCorLib\obj\Debug\net7.0\refint\CadionCorLib.dll
 C:\IPT102_FINAL\CadionIPT102\CadionCorLib\obj\Debug\net7.0\CadionCorLib.pdb
 C:\IPT102_FINAL\CadionIPT102\CadionCorLib\obj\Debug\net7.0\ref\CadionCorLib.dll
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\bin\Debug\net7.0\CadionCorLib.deps.json
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\bin\Debug\net7.0\CadionCorLib.dll
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\bin\Debug\net7.0\CadionCorLib.pdb
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\obj\Debug\net7.0\CadionCorLib.csproj.AssemblyReference.cache
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\obj\Debug\net7.0\CadionCorLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\obj\Debug\net7.0\CadionCorLib.AssemblyInfoInputs.cache
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\obj\Debug\net7.0\CadionCorLib.AssemblyInfo.cs
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\obj\Debug\net7.0\CadionCorLib.csproj.CoreCompileInputs.cache
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\obj\Debug\net7.0\CadionCorLib.sourcelink.json
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\obj\Debug\net7.0\CadionCorLib.dll
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\obj\Debug\net7.0\refint\CadionCorLib.dll
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\obj\Debug\net7.0\CadionCorLib.pdb
+C:\Users\JERICHO\OneDrive\Desktop\New folder\Cadion_IPT102\Cadion_IPT102_FINAL\CadionCorLib\obj\Debug\net7.0\ref\CadionCorLib.dll

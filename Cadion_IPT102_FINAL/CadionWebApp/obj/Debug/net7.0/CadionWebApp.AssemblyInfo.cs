@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadionWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0fe06d9d595e6e9ed08523107f7af337da86a53")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadionWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadionWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,7 +3,7 @@ namespace CadionCorLib.Model
 {
     public class Users
     {
-            
+
 
         public class UserModel
         {
@@ -26,7 +26,7 @@ namespace CadionCorLib.Model
             public string Flavor { get; set; }
             public string Price { get; set; }
         }
-
-        }
+       
     }
+}
 

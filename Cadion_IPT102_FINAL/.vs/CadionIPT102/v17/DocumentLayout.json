@@ -1,86 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\IPT102_FINAL\\CadionIPT102\\",
+  "WorkspaceRootPath": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\ipt102_final\\cadionipt102\\cadionwebapp\\pages\\juice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\users\\jericho\\onedrive\\desktop\\new folder\\cadion_ipt102\\cadion_ipt102_final\\cadionwebapp\\pages\\juice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|solutionrelative:cadionwebapp\\pages\\juice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_SEA.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\Vape\\Vape_SEA.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\users\\jericho\\onedrive\\desktop\\new folder\\cadion_ipt102\\cadion_ipt102_final\\cadionwebapp\\pages\\juice.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|solutionrelative:cadionwebapp\\pages\\juice.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_DIS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\Vape\\Vape_DIS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_ADD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\Vape\\Vape_ADD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_DEL.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\Vape\\Vape_DEL.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_UPD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\Vape\\Vape_UPD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_UPD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_UPD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_SEA.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_SEA.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_LOG.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_LOG.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_DIS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_DIS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_DEL.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_DEL.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_ADD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_ADD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\ipt102_final\\cadionipt102\\cadionwebapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|solutionrelative:cadionwebapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\ipt102_final\\cadionipt102\\cadionwebapp\\pages\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\users\\jericho\\onedrive\\desktop\\new folder\\cadion_ipt102\\cadion_ipt102_final\\cadionwebapp\\pages\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|solutionrelative:cadionwebapp\\pages\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\ipt102_final\\cadionipt102\\cadionwebapp\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\users\\jericho\\onedrive\\desktop\\new folder\\cadion_ipt102\\cadion_ipt102_final\\cadionwebapp\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|solutionrelative:cadionwebapp\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\ipt102_final\\cadionipt102\\cadionwebapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{251155FD-2A9F-4462-B782-DFAEFFC47E48}|CadionCorLib\\CadionCorLib.csproj|c:\\users\\jericho\\onedrive\\desktop\\new folder\\cadion_ipt102\\cadion_ipt102_final\\cadioncorlib\\model\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251155FD-2A9F-4462-B782-DFAEFFC47E48}|CadionCorLib\\CadionCorLib.csproj|solutionrelative:cadioncorlib\\model\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\users\\jericho\\onedrive\\desktop\\new folder\\cadion_ipt102\\cadion_ipt102_final\\cadionwebapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|solutionrelative:cadionwebapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\ipt102_final\\cadionipt102\\cadionwebapp\\pages\\vape.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\users\\jericho\\onedrive\\desktop\\new folder\\cadion_ipt102\\cadion_ipt102_final\\cadionwebapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|solutionrelative:cadionwebapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_SEA.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\Vape\\Vape_SEA.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_DIS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\Vape\\Vape_DIS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_ADD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\Vape\\Vape_ADD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_DEL.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\Vape\\Vape_DEL.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_UPD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\Vape\\Vape_UPD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_UPD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_UPD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_SEA.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_SEA.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_LOG.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_LOG.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_DIS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_DIS.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_DEL.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_DEL.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_ADD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\User\\User_ADD.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\users\\jericho\\onedrive\\desktop\\new folder\\cadion_ipt102\\cadion_ipt102_final\\cadionwebapp\\pages\\vape.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|solutionrelative:cadionwebapp\\pages\\vape.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\ipt102_final\\cadionipt102\\cadionwebapp\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\users\\jericho\\onedrive\\desktop\\new folder\\cadion_ipt102\\cadion_ipt102_final\\cadionwebapp\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|solutionrelative:cadionwebapp\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\ipt102_final\\cadionipt102\\cadionwebapp\\pages\\vape.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|c:\\users\\jericho\\onedrive\\desktop\\new folder\\cadion_ipt102\\cadion_ipt102_final\\cadionwebapp\\pages\\vape.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28FD1BD1-FC0A-4833-863F-99A35F5D08CD}|CadionWebApp\\CadionWebApp.csproj|solutionrelative:cadionwebapp\\pages\\vape.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_SEA.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{7C0FE32E-21BC-4840-B81B-C6CDD31BEC81}|CadionDB\\CadionDB.sqlproj|solutionrelative:CadionDB\\StoredProcedure\\Vape\\Vape_SEA.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,28 +94,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Juice.cshtml",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Juice.cshtml",
-              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Juice.cshtml",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Juice.cshtml",
-              "RelativeToolTip": "CadionWebApp\\Pages\\Juice.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-23T23:04:23.632Z",
+              "DocumentIndex": 1,
+              "Title": "Juice.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Juice.cshtml.cs",
+              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Juice.cshtml.cs",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Juice.cshtml.cs",
+              "RelativeToolTip": "CadionWebApp\\Pages\\Juice.cshtml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAA6wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T01:29:44.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionCorLib\\Model\\Class.cs",
+              "RelativeDocumentMoniker": "CadionCorLib\\Model\\Class.cs",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionCorLib\\Model\\Class.cs",
+              "RelativeToolTip": "CadionCorLib\\Model\\Class.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T01:26:39.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Index.cshtml",
+              "RelativeToolTip": "CadionWebApp\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T14:55:42.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Vape_SEA.sql",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_Sea.sql",
+              "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\Vape\\Vape_Sea.sql",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_Sea.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-23T22:54:07.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User_ADD.sql",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_ADD.sql",
+              "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\User\\User_ADD.sql",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_ADD.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-23T11:32:46.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Vape_DEL.sql",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_DEL.sql",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_DEL.sql",
               "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\Vape\\Vape_DEL.sql",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_DEL.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_DEL.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-05-23T22:55:24.121Z",
               "EditorCaption": ""
@@ -119,196 +171,181 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Vape_ADD.sql",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_ADD.sql",
-              "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\Vape\\Vape_ADD.sql",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_ADD.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-23T22:55:22.732Z",
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Admin.cshtml",
+              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Admin.cshtml",
+              "RelativeToolTip": "CadionWebApp\\Pages\\Admin.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T15:08:27.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Vape_UPD.sql",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_UPD.sql",
-              "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\Vape\\Vape_UPD.sql",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_UPD.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-23T22:55:16.822Z",
+              "DocumentIndex": 0,
+              "Title": "Juice.cshtml",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Juice.cshtml",
+              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Juice.cshtml",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Juice.cshtml",
+              "RelativeToolTip": "CadionWebApp\\Pages\\Juice.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T23:04:23.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Vape_DIS.sql",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_DIS.sql",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_DIS.sql",
               "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\Vape\\Vape_DIS.sql",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_DIS.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_DIS.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-05-23T22:54:12.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Vape_SEA.sql ",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_Sea.sql",
-              "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\Vape\\Vape_Sea.sql",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\Vape\\Vape_Sea.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
+              "DocumentIndex": 2,
+              "Title": "Admin.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Admin.cshtml.cs",
+              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Admin.cshtml.cs",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Admin.cshtml.cs",
+              "RelativeToolTip": "CadionWebApp\\Pages\\Admin.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:02:57.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Vape_ADD.sql",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_ADD.sql",
+              "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\Vape\\Vape_ADD.sql",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_ADD.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-23T22:54:07.947Z",
+              "WhenOpened": "2024-05-23T22:55:22.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "CadionWebApp\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:05:37.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "User_ADD.sql",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_ADD.sql",
-              "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\User\\User_ADD.sql",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_ADD.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
+              "Title": "Vape_UPD.sql",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_UPD.sql",
+              "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\Vape\\Vape_UPD.sql",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\Vape\\Vape_UPD.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-23T11:32:46.586Z",
+              "WhenOpened": "2024-05-23T22:55:16.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "CadionWebApp\\Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T17:05:37.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "User_DEL.sql",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_DEL.sql",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_DEL.sql",
               "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\User\\User_DEL.sql",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_DEL.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_DEL.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-05-20T15:21:06.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "User_DIS.sql",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_DIS.sql",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_DIS.sql",
               "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\User\\User_DIS.sql",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_DIS.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_DIS.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-05-20T15:21:09.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "User_LOG.sql",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_LOG.sql",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_LOG.sql",
               "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\User\\User_LOG.sql",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_LOG.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_LOG.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-05-20T15:21:27.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "User_SEA.sql",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_SEA.sql",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_SEA.sql",
               "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\User\\User_SEA.sql",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_SEA.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_SEA.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-05-20T15:21:31.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "User_UPD.sql",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_UPD.sql",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_UPD.sql",
               "RelativeDocumentMoniker": "CadionDB\\StoredProcedure\\User\\User_UPD.sql",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionDB\\StoredProcedure\\User\\User_UPD.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionDB\\StoredProcedure\\User\\User_UPD.sql\r\n(localdb)\\ProjectModels.CadionDB\r\n(REALMEC12\\JERICHO)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-05-20T15:21:40.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Index.cshtml",
-              "RelativeToolTip": "CadionWebApp\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T14:55:42.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Admin.cshtml",
-              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Admin.cshtml",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Admin.cshtml",
-              "RelativeToolTip": "CadionWebApp\\Pages\\Admin.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T15:08:27.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Admin.cshtml.cs",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Admin.cshtml.cs",
-              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Admin.cshtml.cs",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Admin.cshtml.cs",
-              "RelativeToolTip": "CadionWebApp\\Pages\\Admin.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T17:02:57.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Privacy.cshtml",
               "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Privacy.cshtml",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Privacy.cshtml",
               "RelativeToolTip": "CadionWebApp\\Pages\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T16:25:12.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Vape.cshtml",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Vape.cshtml",
-              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Vape.cshtml",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Vape.cshtml",
-              "RelativeToolTip": "CadionWebApp\\Pages\\Vape.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T14:51:27.783Z"
+              "WhenOpened": "2024-05-20T16:25:12.946Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "Vape.cshtml",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Vape.cshtml",
+              "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Vape.cshtml",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Vape.cshtml",
+              "RelativeToolTip": "CadionWebApp\\Pages\\Vape.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T14:51:27.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Vape.cshtml.cs",
-              "DocumentMoniker": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Vape.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Vape.cshtml.cs",
               "RelativeDocumentMoniker": "CadionWebApp\\Pages\\Vape.cshtml.cs",
-              "ToolTip": "C:\\IPT102_FINAL\\CadionIPT102\\CadionWebApp\\Pages\\Vape.cshtml.cs",
+              "ToolTip": "C:\\Users\\JERICHO\\OneDrive\\Desktop\\New folder\\Cadion_IPT102\\Cadion_IPT102_FINAL\\CadionWebApp\\Pages\\Vape.cshtml.cs",
               "RelativeToolTip": "CadionWebApp\\Pages\\Vape.cshtml.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T14:51:03.708Z"
+              "WhenOpened": "2024-05-20T14:51:03.708Z",
+              "EditorCaption": ""
             }
           ]
         }
